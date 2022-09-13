@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.accordion-title {
+  background-color: #AFD5AA;
+  padding: 1rem;
+  width: 50%;
+  margin: auto;
+}
+
+.accordion-sign {
+  float: right;
+}
+
+.accordion-body {
+  background-color: #F0F2EF;
+  color: #60656F;
+  padding: 1rem;
+  width: 50%;
+  margin: auto;
+}
+
+.accordion {
+  margin: 2rem;
+}
+
+.gallery-image img {
+  width: 600px;
+  height: 400px;
+  margin: 5%;
+}
+
+.current-gallery-index {
+  background-color: olivedrab !important;
+}
+
+.gallery-index {
+  border-radius: 100%;
+  background-color: #AFD5AA;
+  height: 15px;
+  width: 15px;
+  border: 1px black solid;
+  margin: 0.1rem;
+}
+
+input[type="checkbox"]~label{
+  color: rebeccapurple;  /*  a~b	  Selects every b element that is preceded by a element */
+  margin: 0 1rem 1rem 0.3rem;  /* top right bottom left */
+}
+
+.checkList {
+  float: left;
+  width: 50%;
+  padding: 5vw;
+  height: 100%;
+}
+
+.checkList-output {
+  float: right;
+  width: 50%;
+  /* padding: 2vw; */
+  border: 2px rebeccapurple solid;
+  min-height: 40vh;
+  /* min-height: 100%; */
+}
+
+.error {
+  color: red;
+}
+
+.login-form {
+  padding: 20px;
+  margin: 10px;
+  width: 50%;
+  margin: auto;
+  background-color: #61dafb;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+div.login-form > input{
+  display: block;
+  margin: 1rem;
+  padding: 0.4rem;
+}
+
+div.login-form button {
+  margin: 1rem;
+  padding: 0.6rem;
+}
